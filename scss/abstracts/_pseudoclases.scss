@@ -1,0 +1,21 @@
+/* --------PSEUDOCLASES-------- */
+.nav-item:hover {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.header {
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        .container-fluid {
+            .collapse .navbar-collapse {
+                .navbar-nav{
+                    .nav-item:hover {
+                        font-weight: bold;
+                        font-size: medium;
+                    }
+                }
+            }
+
+            }
+        }
+    }

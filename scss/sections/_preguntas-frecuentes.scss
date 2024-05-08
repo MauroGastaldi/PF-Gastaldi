@@ -1,0 +1,95 @@
+.body-pf {
+    .main-pf {
+
+        .p-p-frecuentes {
+            display: inline-block;
+            padding: 20px;
+            .h3 {
+                margin: 10px;
+            }
+
+            .p {
+                font-size: 1rem;
+                text-align: justify;
+                margin: 0px 20px 0px;
+            }
+        }
+           
+
+        .p-f-img {
+            display: grid;
+            grid-template-areas:
+                "uno dos"
+                "tres cuatro";
+            grid-template-rows: repeat(4, 300px);
+            grid-template-columns: repeat(1, 90%);
+            column-gap: 200px;
+
+            .uno {
+                @include img-pf (uno);
+            }
+
+            .dos {
+                @include img-pf (dos);
+            }
+
+            .tres {
+                @include img-pf (tres);
+            }
+
+            .cuatro {
+                @include img-pf (cuatro);
+            }
+
+        }
+    }
+}
+
+
+
+/*--------- RESPONSIVE ---------*/
+/*- Mobile first => min-width-*/
+
+
+/* ------------Tablet---------- */
+@media (min-width: 540px) {}
+
+//* ------------Desktop---------- */
+@media (min-width: 540px) {
+    .body-pf {
+        .main-pf {
+
+            .p-f-img {
+                display: grid;
+                grid-template-areas:
+                    "uno dos"
+                    "tres cuatro";
+                grid-template-rows: repeat(2, 400px);
+                grid-template-columns: repeat(2, 2fr);
+                column-gap: 100px;
+                row-gap: 50px;
+
+                .uno {
+                    @include img-pf (uno);
+                }
+
+                .dos {
+                    @include img-pf (dos);
+                }
+
+                .tres {
+                    @include img-pf (tres);
+                }
+
+                .cuatro {
+                    @include img-pf (cuatro);
+                }
+
+            }
+        }
+
+
+    }
+
+
+}

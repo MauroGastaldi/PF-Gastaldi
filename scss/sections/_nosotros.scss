@@ -1,0 +1,58 @@
+.body-productos {
+    .main-nosotros {
+        position: relative;
+        height: 80vh;
+
+        .nosotros-contenido {
+            text-align: center;
+            width: 80%;
+                       position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            color: rgb(33, 33, 33);
+
+            .nosotros-parrafo {
+                text-align: justify;
+            }
+
+        }
+
+        .blur-overlay-nosotros {
+            background-image: url(https://images.unsplash.com/photo-1713640775951-e85a958314ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            position: absolute;
+            top: 15%;
+            right: 20px;
+            width: 70%;
+            height: 100%;
+            filter: blur(30px);
+            background-size: 550px;
+
+        }
+    }
+
+}
+
+/*--------- RESPONSIVE ---------*/
+/*- Mobile first => min-width-*/
+
+
+/* ------------Tablet---------- */
+@media (min-width: 540px) {
+    .body-productos {
+        .main-nosotros{
+            .nosotros-contenido {
+                text-align: center;
+                width: 70%;
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+                color: rgb(33, 33, 33);
+        
+            }
+        }
+    }
+}

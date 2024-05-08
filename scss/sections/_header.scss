@@ -1,0 +1,18 @@
+.header {
+    .navbar.navbar-expand-lg.bg-body-tertiary {
+        padding-bottom: 0;
+
+        .container-fluid {
+            width: 100%;
+
+            .navbar-brand img {
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                width: 100px;
+            }
+        }
+    }
+}
+
