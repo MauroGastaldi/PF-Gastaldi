@@ -13,33 +13,40 @@
                 text-align: justify;
                 margin: 0px 20px 0px;
             }
+            display: grid;
+            grid-template-areas:
+                "1"
+                "2"
+                "3"
+                "uno";
+            // grid-template-rows: 200px 200px 400px 400px;
+            grid-template-columns: repeat(1, 90%);
+            // column-gap: 200px;
+            // overflow: hidden;
+
+            .1 {
+                
+            }
+
+            .2 {
+                
+            }
+
+            .3 {
+                
+            }
+
+            .cuatro {
+                display: flex;
+                max-height: 400px;
+                margin: auto;
+            }
+
         }
            
 
         .p-f-img {
-            display: grid;
-            grid-template-areas:
-                "uno dos"
-                "tres cuatro";
-            grid-template-rows: repeat(4, 300px);
-            grid-template-columns: repeat(1, 90%);
-            column-gap: 200px;
-
-            .uno {
-                @include img-pf (uno);
-            }
-
-            .dos {
-                @include img-pf (dos);
-            }
-
-            .tres {
-                @include img-pf (tres);
-            }
-
-            .cuatro {
-                @include img-pf (cuatro);
-            }
+           
 
         }
     }
@@ -60,7 +67,7 @@
         .main-pf {
 
             .p-f-img {
-                display: grid;
+                // display: grid;
                 grid-template-areas:
                     "uno dos"
                     "tres cuatro";

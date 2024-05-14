@@ -35,7 +35,7 @@
     }
 }
 
-@mixin img-pf ($name) {
+// @mixin img-pf ($name) {
     grid-area: $name;
     display: flex;
     max-height: 400px;
