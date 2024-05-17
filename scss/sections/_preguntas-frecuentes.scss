@@ -15,27 +15,20 @@
             }
             display: grid;
             grid-template-areas:
-                "1"
                 "2"
                 "3"
                 "uno";
-            // grid-template-rows: 200px 200px 400px 400px;
+           grid-template-rows: 25% 25% 25%;
             grid-template-columns: repeat(1, 90%);
             // column-gap: 200px;
             // overflow: hidden;
 
-            .2 {
-                
-            }
-
-            .3 {
-                
-            }
-
-            .cuatro {
+            .uno {
                 display: flex;
-                max-height: 400px;
-                margin: auto;
+                justify-content: center;
+                align-items: center;
+                max-width: 400px;
+                overflow: hidden;
             }
 
         }
@@ -49,10 +42,14 @@
 
 
 /* ------------Tablet---------- */
-@media (min-width: 540px) {}
+@media (min-width: 540px) {
+
+
+    
+}
 
 //* ------------Desktop---------- */
-@media (min-width: 540px) {
+@media (min-width: 1024px) {
     .body-pf {
         .main-pf {
 
