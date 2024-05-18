@@ -15,15 +15,14 @@
             }
             display: grid;
             grid-template-areas:
-                "2"
-                "3"
-                "uno";
+                "seccion1"
+                "seccion2"
+                "seccionimg";
            grid-template-rows: 25% 25% 25%;
             grid-template-columns: repeat(1, 90%);
-            // column-gap: 200px;
-            // overflow: hidden;
+         
 
-            .uno {
+            .seccionimg{
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -43,8 +42,33 @@
 
 /* ------------Tablet---------- */
 @media (min-width: 540px) {
-
-
+    .body-pf {
+        .main-pf {
+            max-width: 80%;
+            margin: auto;
+            .p-p-frecuentes {
+                display: grid;
+                grid-template-areas:
+                    "2 2"
+                    "3 uno";
+               grid-template-rows: 25% 25%;
+               grid-template-columns: auto auto;
+             
+                .seccion1 {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                }
+                .seccionimg{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 400px;
+                    overflow: hidden;
+                }
+    
+            }
+        }
+    }
     
 }
 

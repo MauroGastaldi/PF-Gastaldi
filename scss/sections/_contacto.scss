@@ -1,7 +1,7 @@
 .body-contacto {
     .main-contacto {
 
-        margin: 20px;
+        margin: auto;
 
         #floatingTextarea {
             margin-top: 20px;
@@ -12,4 +12,26 @@
             text-align: center;
         }
     }
+}
+/*--------- RESPONSIVE ---------*/
+/*- Mobile first => min-width-*/
+
+
+/* ------------Tablet---------- */
+@media (min-width: 540px) {
+    .header {
+        .navbar.navbar-expand-lg.bg-body-tertiary {
+            padding-bottom: 0;
+
+            .container-fluid {
+                max-width: 80%;
+                margin: auto;
+            }
+        }
+    }
+    .main-contacto{
+        max-width: 80%;
+        margin: auto;
+    }
+
 }
