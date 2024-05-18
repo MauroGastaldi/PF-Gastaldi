@@ -84,19 +84,20 @@
     align-items: center;
   }
   .index-body .index-main #carouselExampleIndicators {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     justify-content: flex-end;
-    width: auto;
     margin: auto;
   }
   .index-body .index-main #carouselExampleIndicators .carousel-inner {
     height: 750px !important;
-    width: 70%;
+    width: 90%;
     margin: auto;
   }
   .index-body .index-main #carouselExampleIndicators .carousel-inner .carousel-item img {
-    right: 90%;
+    width: 100%;
+    background-size: cover;
+    height: auto;
   }
   .index-body .index-main #carouselExampleIndicators #carouselExampleIndicators {
     width: 375px;
@@ -147,7 +148,7 @@
     width: auto;
   }
   .index-body .index-main #carouselExampleIndicators .carousel-inner .carousel-item img {
-    height: 850px;
+    width: 100%;
     background-size: cover;
   }
   .index-body .index-main #carouselExampleIndicators #carouselExampleIndicators {

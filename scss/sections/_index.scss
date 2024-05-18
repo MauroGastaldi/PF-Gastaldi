@@ -108,11 +108,9 @@
             }
 
             #carouselExampleIndicators {
-                width: 100vw;
+                width: 90vw;
                 display: flex;
                 justify-content: flex-end;
-                width: auto;
-                
                 margin: auto;
 
                 //<!-- Posición de imagenes -->
@@ -120,12 +118,14 @@
                 //<!-- Imagenes -->
                 .carousel-inner {
                     height: 750px !important;
-                    width: 70%;
+                    width: 90%;
                     margin: auto;
 
                     .carousel-item {
                         img {
-                            right: 90%;
+                            width: 100%;
+                            background-size: cover;
+                            height: auto;
                         
                         }
                     }
@@ -198,7 +198,7 @@
 
                     .carousel-item {
                         img {
-                            height: 850px;
+                            width: 100%;
                             background-size: cover;
                         }
                     }
