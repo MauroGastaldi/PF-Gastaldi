@@ -465,6 +465,12 @@
     margin: auto;
   }
 }
+/* ------------Desktop---------- */
+@media (min-width: 1024px) {
+  .main-contacto {
+    width: 600px;
+  }
+}
 /* --------PSEUDOCLASES-------- */
 .nav-item:hover {
   font-weight: bold;
