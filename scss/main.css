@@ -128,7 +128,7 @@
     border-radius: 15px;
     color: rgb(80, 72, 53);
   }
-  .index-body .index-main .texto-superpuesto .texto {
+  .index-body .index-main .texto-superpuesto .texto, .index-body .index-main .texto-superpuesto .texto1 {
     font-family: "Montserrat";
     font-size: 1rem;
     width: 80%;
