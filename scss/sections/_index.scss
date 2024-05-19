@@ -31,7 +31,7 @@
             .texto, .texto1 {
                 font-family: $fuente-titulo;
                 font-size: 1rem;
-                width: 60%;
+                width: 80%;
                 text-align: center;
                 text-align: justify;
 
@@ -150,9 +150,10 @@
         .index-main {
 
             .texto-superpuesto {
-                width: 80%;
+                left: 40%;
+                width: 60%;
                 max-width: 800px;
-                margin: auto;
+                // margin: auto;
                 position: absolute;
                 transform: translate(-50%, -50%);
                 z-index: 1;
@@ -173,7 +174,7 @@
                 .texto {
                     font-family: $fuente-titulo;
                     font-size: 1rem;
-                    width: 60%;
+                    width: 80%;
                     text-align: center;
                     text-align: justify;
 
