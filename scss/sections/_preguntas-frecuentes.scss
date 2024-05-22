@@ -33,6 +33,40 @@
 
         }
     }
+    footer {
+        flex: 0 0 auto;
+        background-color: #a8a6a6;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        min-height: 5vh;
+       
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .social-icons {
+        margin: 20px 0;
+    }
+    
+    .social-icon {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    
+    .social-icon img {
+        width: 40px;
+        height: 40px;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-icon img:hover {
+        transform: scale(1.1);
+    }
 }
 
 

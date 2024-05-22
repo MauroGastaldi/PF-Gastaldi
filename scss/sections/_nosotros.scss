@@ -1,9 +1,13 @@
 .body-productos {
+    
     .main-nosotros {
         position: relative;
         height: 80vh;
+        margin-bottom: 60%;
+        
 
         .nosotros-contenido {
+            
             text-align: center;
             width: 80%;
                        position: absolute;
@@ -12,24 +16,48 @@
             transform: translate(-50%, -50%);
             z-index: 1;
             color: rgb(33, 33, 33);
+            
 
-            .nosotros-parrafo {
+            .nosotros-parrafo, .nosotros-parrafo-1, .nosotros-parrafo  {
                 text-align: justify;
+                
             }
 
         }
-
-        .blur-overlay-nosotros {
-            background-image: url(https://images.unsplash.com/photo-1713640775951-e85a958314ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-            position: absolute;
-            top: 15%;
-            right: 20px;
-            width: 70%;
-            height: 100%;
-            filter: blur(30px);
-            background-size: 550px;
-
-        }
+    }
+    footer {
+        flex: 0 0 auto;
+        background-color: #a8a6a6;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        min-height: 5vh;
+       
+    }
+    
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .social-icons {
+        margin: 20px 0;
+    }
+    
+    .social-icon {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    
+    .social-icon img {
+        width: 40px;
+        height: 40px;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-icon img:hover {
+        transform: scale(1.1);
     }
 
 }
